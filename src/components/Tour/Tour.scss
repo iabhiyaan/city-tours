@@ -1,0 +1,23 @@
+.card {
+  border-radius: 20px;
+  overflow: hidden;
+}
+.card__image {
+  position: relative;
+  &:hover {
+    .times__icon {
+      opacity: 1;
+      transition: 0.5s;
+    }
+  }
+}
+.times__icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+
+  i {
+    color: #fff;
+  }
+}
